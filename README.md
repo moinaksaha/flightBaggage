@@ -41,12 +41,77 @@ Step 1: Install Hygen Globally into your system using
 yarn add global hygen
 ```
 
-We have already designed templates For making Smart and Dumb Components.
+I have already designed templates For making Dumb Components.
 
-Step 3: For Instance : To Create Smart Component. Run
+Step 3: For Instance : To Create Dumb Component. Run
 
 ```
-hygen smart new --name MyComponent
+hygen dumb new --name MyComponent
 ```
 
-You'll See Separate Organised Folder For MyComponent has Been Created with code.
+
+# Component Explanation
+
+## Container
+
+### App
+
+This is the main App container. 
+It contains the Router configuration. 
+The routes
+
+1. /
+2. /prototype2
+
+This imports and renders `FlightDetailPage` component and renders it with appropriate props. 
+prototype = 1 -> renders the first prototype
+prototype = 2 -> renders the second prototype
+
+### FlightDetailPage
+This is the main container for the Flight Detail page (Listing page).
+Components imported:
+1. RightContentWrapper -> contains the entire content(Flight Itinerary, Baggage info)
+2. LeftSideBar -> contains the price
+
+## Components
+
+### CarrierLogoWrapper
+This is the top part of the details page.
+This includes the carrier logos
+
+### FlightBaggageInfo
+This is the first prototype of the baggage info
+
+### FlightBaggageInfoType2
+This is the second prototype of the baggage info
+
+### FlightRunningInfo
+This is the 2nd section from the top on the RightContentWrapper
+A tabulated structure of the Flight Itinerary(Departure Date, Flight Route, Departure Time, Flight Duration)
+
+### LeftSideBar
+This component renders the Price and the Currency holder
+
+### RightContentWrapper
+This is the wrapper component for all the information displayed on the right side of the listing page.
+Components imported:
+1. TopContentWrapper
+2. FlightRunningInfo
+3. FlightBaggageInfo
+4. FlightBaggageInfoType2
+5. ViewAndContinueButton
+
+Conditionally shows the baggage information on clicking the 'View and Continue' button.
+Also, conditionally renders the different prototypes of Baggage information based on the prototype prop passed to this component
+
+### TopContentWrapper
+Wrapper for the Logos and Button
+Components imported:
+1. ViewAndContinueButton
+2. CarrierLogoWrapper
+
+### ViewAndContinueButton
+Button component to show the baggage information. 
+Trigger event -> Click
+
+

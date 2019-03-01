@@ -1,6 +1,8 @@
+@import '../../theme/colors.css';
+
 .rightContentWrapper{
     flex: 5;
-    background: #ffffff;
+    background: $colorWhite;
     padding: 15px;
 }
 .smallScreenViewAndContinue{

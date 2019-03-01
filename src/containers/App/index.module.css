@@ -1,4 +1,6 @@
+@import '../../theme/colors.css';
+
 .mainContainer{
-    background: #f6f6f6;
+    background: $colorLightGrey2;
     font-family: 'Lato', sans-serif;
 }

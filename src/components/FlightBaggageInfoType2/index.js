@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import styles from './index.module.css';
 
-import { IoIosAirplane, IoIosTimer } from 'react-icons/io';
+import { IoIosTimer } from 'react-icons/io';
 import { FaPlaneDeparture, FaPlaneArrival } from 'react-icons/fa';
 
 import { flightDurationCalculator, departureTimeFormatter, dateFormatter } from '../../utils/helperFunctions';
@@ -26,9 +26,6 @@ const getBaggagePieces = (baggage, type) => {
 class FlightBaggageInfoType2 extends Component {
     render() {
         const { flightsData } = this.props;
-
-        // <img src={require(`../../images/${airlineCode}.gif`)} key={airlineCode} alt={airline}/>
-
         return (
             <div className={`${styles.baggageInfoWrapper}`}>
                 {flightsData.map((item, index) => {

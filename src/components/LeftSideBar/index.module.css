@@ -1,6 +1,8 @@
+@import '../../theme/colors.css';
+
 .leftSideBar{
     flex: 1;
-    color: #1a3859;
+    color: $colorBlue;
 }
 
 .leftSideBar .priceHolder{
@@ -18,6 +20,9 @@
 @media only screen and (max-width : 991px) {
     .leftSideBar .priceHolder{
         margin-bottom: 15px;
+    }
+    .leftSideBar{
+        flex: none;
     }
 }
 

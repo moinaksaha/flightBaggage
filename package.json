@@ -44,7 +44,9 @@
     "react-dev-utils": "^7.0.3",
     "react-dom": "^16.8.3",
     "react-icons": "^3.4.0",
+    "react-pose": "^4.0.7",
     "react-router-dom": "^4.3.1",
+    "react-test-renderer": "^16.8.3",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
@@ -118,5 +120,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "precss": "^4.0.0"
   }
 }

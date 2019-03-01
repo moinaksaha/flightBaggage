@@ -1,0 +1,67 @@
+.flightRunningInfoWrapper{
+    margin-top: 50px;
+}
+.flightRunningInfoWrapper .travelTimeHeading{
+    display: flex;
+    align-items: flex-end;
+}
+
+.individualFlightInfo{
+    display: flex;
+    padding: 5px;
+    color: #6b6b6b;
+    /* justify-content: space-between; */
+}
+
+.individualFlightInfo .date{
+    color: #000000;
+    font-weight: bold;
+}
+.individualFlightInfo .flightDuration{
+    display: flex;
+    align-items: center;
+}
+.individualFlightInfo .flightDuration .iconHolder{
+    color: #d78432;
+    margin-right: 5px;
+}
+
+@media only screen and (min-width : 768px) {
+    .individualFlightInfo > div.date{
+        flex: 1 1 100px;
+    }
+    .individualFlightInfo > div.flightPath{
+        flex: 3 3 300px;
+    }
+    .individualFlightInfo > div.departureTime{
+        flex: 2 2 200px;
+    }
+    .individualFlightInfo > div.flightDuration{
+        flex: 1 1 100px;
+    }
+    .airlineNameLogo{
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .flightRunningInfoWrapper{
+        margin-top: 0px;
+    }
+    .individualFlightInfo{
+        flex-direction: column;
+        box-shadow: 0 1px 3px rgba(0,0,0,.16);
+        margin-bottom: 10px;
+        border: 1px solid #e6e6e6;
+    }
+    .airlineNameLogo{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .individualFlightInfo .flightPath{
+        font-size: 22px;
+    }
+    .individualFlightInfo .departureTime, .individualFlightInfo .flightDuration{
+        font-size: 14px;
+    }
+}

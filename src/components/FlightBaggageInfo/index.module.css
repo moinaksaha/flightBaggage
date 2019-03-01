@@ -1,0 +1,121 @@
+.baggageInfoWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.16);
+    margin: 10px 0;
+    border: 1px solid #e6e6e6;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .airlineNameLogo{
+    display: flex;
+    margin-bottom: 10px;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops{
+    display: flex;
+    flex: 1;
+    /* justify-content: space-between; */
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .city{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops > .departure{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops > .arrival{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .baggageDataWrapper{
+    border: 1px solid #e6e6e6;
+    /* padding: 10px; */
+    margin-top: 15px;
+    font-size: 12px;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .baggageDataWrapper .baggageDataHeading{
+    display: flex;
+    background: #6b6b6b;
+    color: #ffffff;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .baggageDataWrapper .baggageDataHeading > div{
+    flex-basis:150px;
+    padding: 10px;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .baggageDataWrapper .baggageData{
+    display: flex;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .baggageDataWrapper .baggageData > div{
+    flex-basis:150px;
+    padding: 5px 10px;
+}
+
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .airportCode{
+    font-size: 24px;
+    font-weight: bold;
+    color: #4e4e4e;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items: stretch;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon .dateTime{
+    font-size: 12px;
+    justify-content: center;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon .planeIcon{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon .planeIcon .line{
+    flex: 1;
+    height: 1px;
+    background: #4e4e4e;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon .planeIcon .dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #4e4e4e;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon .planeIcon .actualIcon{
+    font-size: 20px;
+    padding: 3px 5px 0 5px;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .dateTime{
+    display: flex;
+    font-size: 12px;
+    color: #6b6b6b;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .dateTime .iconHolder{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+
+
+@media only screen and (max-width : 767px) {
+    .baggageInfoWrapper .individualBaggageInfoWrapper{
+        padding: 20px 0;
+        box-shadow: none;
+        margin: 0;
+        border: 0;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .baggageInfoWrapper .individualBaggageInfoWrapper:last-of-type{
+        border-bottom: 0px;
+    }
+    .baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon .dateTime{
+        visibility: hidden;
+    }
+}

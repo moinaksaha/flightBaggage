@@ -1,0 +1,139 @@
+.baggageInfoWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper{
+    flex: 1;
+    /* padding: 20px; */
+    box-shadow: 0 1px 3px rgba(0,0,0,.16);
+    margin: 10px 0;
+    border: 1px solid #e6e6e6;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .airlineBaggage{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .airlineNameLogo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .airlineNameLogo > div{
+    display: flex;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightPath{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f6f6f6;
+    color: #6b6b6b;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightPath .duration{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+    padding: 0 10px;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightPath .duration .iconHolder{
+    font-size: 16px;
+    margin-right: 5px;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .departure, .baggageInfoWrapper .individualBaggageInfoWrapper .arrival{
+    display: flex;
+    flex-direction: column;
+}
+
+.baggageInfoWrapper .individualBaggageInfoWrapper .departure .dateTime, .baggageInfoWrapper .individualBaggageInfoWrapper .arrival .dateTime{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.baggageInfoWrapper .individualBaggageInfoWrapper .departure .airport, .baggageInfoWrapper .individualBaggageInfoWrapper .arrival .airport{
+    display: flex;
+    flex-direction: column;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .arrival .airport{
+    align-items: flex-end;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .departure .airport .airportCode, .baggageInfoWrapper .individualBaggageInfoWrapper .arrival .airport .airportCode{
+    font-size: 20px;
+    font-weight: bold;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .departure .airport .city, .baggageInfoWrapper .individualBaggageInfoWrapper .arrival .airport .city{
+    font-size: 12px;
+}
+
+.baggageInfoWrapper .airlineBaggage .baggageDataWrapper{
+    border: 1px solid #e6e6e6;
+    /* padding: 10px; */
+    /* margin-top: 15px; */
+    font-size: 12px;
+    flex: 1;
+}
+.baggageInfoWrapper .airlineBaggage .baggageDataWrapper .baggageDataHeading{
+    display: flex;
+    background: #6b6b6b;
+    color: #ffffff;
+}
+.baggageInfoWrapper .airlineBaggage .baggageDataWrapper .baggageDataHeading > div{
+    flex-basis:200px;
+    padding: 10px;
+}
+.baggageInfoWrapper .airlineBaggage .baggageDataWrapper .baggageData{
+    display: flex;
+}
+.baggageInfoWrapper .airlineBaggage .baggageDataWrapper .baggageData > div{
+    flex-basis:200px;
+    padding: 5px 10px;
+}
+
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightPath .planeIcon{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightPath .planeIcon .icon{
+    position: relative;
+    top: -5px;
+    font-size: 20px;
+}
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightPath .planeIcon .line{
+    flex: 1;
+    height: 2px;
+    background: #6b6b6b;
+}
+
+.baggageInfoWrapper .individualBaggageInfoWrapper .flightPath .planeIcon .actualIcon{
+    font-size: 20px;
+    padding: 3px 5px 0 5px;
+}
+
+@media only screen and (max-width : 767px) {
+    .baggageInfoWrapper .individualBaggageInfoWrapper{
+        padding: 20px 0;
+        box-shadow: none;
+        margin: 0;
+        border: 0;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .baggageInfoWrapper .individualBaggageInfoWrapper:last-of-type{
+        border-bottom: 0px;
+    }
+    .baggageInfoWrapper .individualBaggageInfoWrapper .airlineNameLogo{
+        flex: none;
+    }
+    .baggageInfoWrapper .individualBaggageInfoWrapper .airlineBaggage{
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (max-width : 500px){
+    .baggageInfoWrapper .individualBaggageInfoWrapper .airlineBaggage{
+        flex-direction: column;
+    }
+}

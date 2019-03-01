@@ -1,0 +1,19 @@
+.rightContentWrapper{
+    flex: 5;
+    background: #ffffff;
+    padding: 15px;
+}
+.smallScreenViewAndContinue{
+    display: none;
+}
+
+@media only screen and (max-width : 767px) {
+    .rightContentWrapper .topContentWrapper{
+        display: none;
+    }
+    .smallScreenViewAndContinue{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+

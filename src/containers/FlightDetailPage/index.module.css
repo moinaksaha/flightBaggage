@@ -1,0 +1,12 @@
+.flightDetailWrapper{
+    display: flex;
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: auto;
+}
+
+@media only screen and (max-width : 991px) {
+    .flightDetailWrapper{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,11 @@
+.carrierLogoWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.carrierLogoWrapper img{
+    padding: 0 20px;
+}
+
+
+

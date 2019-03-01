@@ -1,0 +1,75 @@
+{
+    "price": 805.11,
+    "currency": "USD",
+    "flights": [
+        {
+            "airline": "Scoot",
+            "airlineCode": "TR",
+            "departure": {
+                "city": "Bangkok",
+                "airportCode": "DMK",
+                "dateTime": "2018-11-18T12:30:00+00:00"
+            },
+            "arrival": {
+                "city": "Tokyo",
+                "airportCode": "NRT",
+                "dateTime": "2018-11-18T17:30:00+00:00"
+            },
+            "baggage": {
+                "checkedBag": {
+                    "piece": 1,
+                    "weight": {
+                        "kilograms": null
+                    }
+                },
+                "carryOn": null
+            }
+        },
+        {
+            "airline": "Jetstar",
+            "airlineCode": "GK",
+            "departure": {
+                "city": "Tokyo",
+                "airportCode": "NRT",
+                "dateTime": "2018-11-20T11:35:00+00:00"
+            },
+            "arrival": {
+                "city": "Osaka",
+                "airportCode": "KIX",
+                "dateTime": "2018-11-20T12:30:00+00:00"
+            },
+            "baggage": {
+                "checkedBag": null,
+                "carryOn": {
+                    "piece": 1,
+                    "weight": {
+                        "kilograms": 7
+                    }
+                }
+            }
+        },
+        {
+            "airline": "Air Asia",
+            "airlineCode": "D7",
+            "departure": {
+                "city": "Osaka",
+                "airportCode": "KIX",
+                "dateTime": "2018-11-25T23:40:00+00:00"
+            },
+            "arrival": {
+                "city": "Honolulu",
+                "airportCode": "HNL",
+                "dateTime": "2018-11-26T10:30:00+00:00"
+            },
+            "baggage": {
+                "checkedBag": {
+                    "piece": null,
+                    "weight": {
+                        "kilograms": 23
+                    }
+                },
+                "carryOn": null
+            }
+        }
+    ]
+}

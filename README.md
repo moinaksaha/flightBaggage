@@ -81,9 +81,19 @@ This includes the carrier logos
 
 ### FlightBaggageInfo
 This is the first prototype of the baggage info
+The layout shows the Departure city(code) and the arrival city from left-to-right so that the end user can get a much clearer visual idea of the flights. This is the most accurate representation of the flight.
+The Flight duration is shown right in the middle of the flight path(Most appropriate place to show the duration)
+The airline details(Name and Logo) are displayed right above the flight path.
+The baggage info is a tabular structure with all the information provided by the airline.
+The number of pieces and the max weight allowed has been displayed separately. 
 
 ### FlightBaggageInfoType2
 This is the second prototype of the baggage info
+The layout shows the Departure city(code) and the arrival city from left-to-right so that the end user can get a much clearer visual idea of the flights. This is a similar representation to the first prototype.
+The Flight duration is shown right in the middle of the flight path(Most appropriate place to show the duration)
+The airline details(Name and Logo) are displayed right under the flight path.
+The baggage info is a tabular structure with all the information provided by the airline.
+The number of pieces and the max weight allowed has been displayed separately. 
 
 ### FlightRunningInfo
 This is the 2nd section from the top on the RightContentWrapper
@@ -114,4 +124,10 @@ Components imported:
 Button component to show the baggage information. 
 Trigger event -> Click
 
+# RnD 
+I basically looked up a lot of flight booking websites and figuered out how the listing page is displayed.
+I did my RnD about how the Itinerary, Baggage info are diplayed on them. 
+I repeated the flight details in the baggage info section. It has been displayed in a more visual way to easily represent the flight details.
 
+# Tech details
+I have used precss to include colors as variables in the App. 

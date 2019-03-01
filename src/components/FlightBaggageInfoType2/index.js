@@ -107,6 +107,7 @@ class FlightBaggageInfoType2 extends Component {
                                 </div>
                             </div>
                             
+                            <div className={`${styles.helpText}`}> ' - ' : No information provided by the airline</div>
 
                         </div>
                     )

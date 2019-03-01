@@ -11,6 +11,13 @@
     margin: 10px 0;
     border: 1px solid $colorLightGrey;
 }
+.baggageInfoWrapper .individualBaggageInfoWrapper .helpText{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 11px;
+    color: $colorOrange;
+    padding: 5px 0;
+}
 .baggageInfoWrapper .individualBaggageInfoWrapper .airlineNameLogo{
     display: flex;
     margin-bottom: 10px;

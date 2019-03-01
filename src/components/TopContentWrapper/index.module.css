@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.buttonSize{
+.topContentWrapper .buttonSize{
     max-width: 200px;
 }
 

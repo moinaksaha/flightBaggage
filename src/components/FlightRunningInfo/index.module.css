@@ -8,36 +8,36 @@
     align-items: flex-end;
 }
 
-.individualFlightInfo{
+.flightRunningInfoWrapper .individualFlightInfo{
     display: flex;
     padding: 5px;
     color: $colorDarkGrey;
 }
 
-.individualFlightInfo .date{
+.flightRunningInfoWrapper .individualFlightInfo .date{
     color: $colorBlack;
     font-weight: bold;
 }
-.individualFlightInfo .flightDuration{
+.flightRunningInfoWrapper .individualFlightInfo .flightDuration{
     display: flex;
     align-items: center;
 }
-.individualFlightInfo .flightDuration .iconHolder{
+.flightRunningInfoWrapper .individualFlightInfo .flightDuration .iconHolder{
     color: $colorOrange;
     margin-right: 5px;
 }
 
 @media only screen and (min-width : 768px) {
-    .individualFlightInfo > div.date{
+    .flightRunningInfoWrapper .individualFlightInfo > div.date{
         flex: 1 1 100px;
     }
-    .individualFlightInfo > div.flightPath{
+    .flightRunningInfoWrapper .individualFlightInfo > div.flightPath{
         flex: 3 3 300px;
     }
-    .individualFlightInfo > div.departureTime{
+    .flightRunningInfoWrapper .individualFlightInfo > div.departureTime{
         flex: 2 2 200px;
     }
-    .individualFlightInfo > div.flightDuration{
+    .flightRunningInfoWrapper .individualFlightInfo > div.flightDuration{
         flex: 1 1 100px;
     }
     .airlineNameLogo{
@@ -49,7 +49,7 @@
     .flightRunningInfoWrapper{
         margin-top: 0px;
     }
-    .individualFlightInfo{
+    .flightRunningInfoWrapper .individualFlightInfo{
         flex-direction: column;
         box-shadow: 0 1px 3px rgba(0,0,0,.16);
         margin-bottom: 10px;
@@ -59,10 +59,10 @@
         display: flex;
         margin-bottom: 10px;
     }
-    .individualFlightInfo .flightPath{
+    .flightRunningInfoWrapper .individualFlightInfo .flightPath{
         font-size: 22px;
     }
-    .individualFlightInfo .departureTime, .individualFlightInfo .flightDuration{
+    .flightRunningInfoWrapper .individualFlightInfo .departureTime, .flightRunningInfoWrapper .individualFlightInfo .flightDuration{
         font-size: 14px;
     }
 }

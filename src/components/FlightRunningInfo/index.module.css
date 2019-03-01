@@ -1,3 +1,5 @@
+@import '../../theme/colors.css';
+
 .flightRunningInfoWrapper{
     margin-top: 50px;
 }
@@ -9,12 +11,11 @@
 .individualFlightInfo{
     display: flex;
     padding: 5px;
-    color: #6b6b6b;
-    /* justify-content: space-between; */
+    color: $colorDarkGrey;
 }
 
 .individualFlightInfo .date{
-    color: #000000;
+    color: $colorBlack;
     font-weight: bold;
 }
 .individualFlightInfo .flightDuration{
@@ -22,7 +23,7 @@
     align-items: center;
 }
 .individualFlightInfo .flightDuration .iconHolder{
-    color: #d78432;
+    color: $colorOrange;
     margin-right: 5px;
 }
 
@@ -52,7 +53,7 @@
         flex-direction: column;
         box-shadow: 0 1px 3px rgba(0,0,0,.16);
         margin-bottom: 10px;
-        border: 1px solid #e6e6e6;
+        border: 1px solid $colorLightGrey;
     }
     .airlineNameLogo{
         display: flex;

@@ -1,3 +1,5 @@
+@import '../../theme/colors.css';
+
 .baggageInfoWrapper{
     display: flex;
     flex-direction: column;
@@ -7,7 +9,7 @@
     padding: 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,.16);
     margin: 10px 0;
-    border: 1px solid #e6e6e6;
+    border: 1px solid $colorLightGrey;
 }
 .baggageInfoWrapper .individualBaggageInfoWrapper .airlineNameLogo{
     display: flex;
@@ -34,15 +36,15 @@
     align-items: flex-end;
 }
 .baggageInfoWrapper .individualBaggageInfoWrapper .baggageDataWrapper{
-    border: 1px solid #e6e6e6;
+    border: 1px solid $colorLightGrey;
     /* padding: 10px; */
     margin-top: 15px;
     font-size: 12px;
 }
 .baggageInfoWrapper .individualBaggageInfoWrapper .baggageDataWrapper .baggageDataHeading{
     display: flex;
-    background: #6b6b6b;
-    color: #ffffff;
+    background: $colorDarkGrey;
+    color: $colorWhite;
 }
 .baggageInfoWrapper .individualBaggageInfoWrapper .baggageDataWrapper .baggageDataHeading > div{
     flex-basis:150px;
@@ -59,7 +61,7 @@
 .baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .airportCode{
     font-size: 24px;
     font-weight: bold;
-    color: #4e4e4e;
+    color: $colorMediumGrey;
 }
 .baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon{
     display: flex;
@@ -80,13 +82,13 @@
 .baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon .planeIcon .line{
     flex: 1;
     height: 1px;
-    background: #4e4e4e;
+    background: $colorMediumGrey;
 }
 .baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon .planeIcon .dot{
     height: 8px;
     width: 8px;
     border-radius: 50%;
-    background: #4e4e4e;
+    background: $colorMediumGrey;
 }
 .baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .flightIcon .planeIcon .actualIcon{
     font-size: 20px;
@@ -95,7 +97,7 @@
 .baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .dateTime{
     display: flex;
     font-size: 12px;
-    color: #6b6b6b;
+    color: $colorDarkGrey;
 }
 .baggageInfoWrapper .individualBaggageInfoWrapper .flightStops .dateTime .iconHolder{
     font-size: 16px;
@@ -110,7 +112,7 @@
         box-shadow: none;
         margin: 0;
         border: 0;
-        border-bottom: 1px solid #e6e6e6;
+        border-bottom: 1px solid $colorLightGrey;
     }
     .baggageInfoWrapper .individualBaggageInfoWrapper:last-of-type{
         border-bottom: 0px;

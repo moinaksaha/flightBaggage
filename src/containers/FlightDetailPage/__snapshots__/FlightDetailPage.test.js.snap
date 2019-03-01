@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flightdetailpage: default 1`] = `
+<div
+  className="flightDetailWrapper"
+>
+  <div
+    className="leftSideBar"
+  >
+    <div
+      className="priceHolder"
+    >
+      <div
+        className="currencyCode"
+      >
+        USD
+      </div>
+      <div
+        className="amount"
+      >
+        $ 805.11
+      </div>
+    </div>
+  </div>
+  <div
+    className="rightContentWrapper"
+  >
+    <div
+      className="rightContentHolder"
+    >
+      <div
+        className="topContentWrapper"
+      >
+        <div
+          className="topContentWrapper"
+        >
+          <div
+            className="carrierLogoWrapper"
+          >
+            <img
+              alt="Scoot"
+              src="TR.gif"
+            />
+            <img
+              alt="Jetstar"
+              src="GK.gif"
+            />
+            <img
+              alt="Air Asia"
+              src="D7.gif"
+            />
+          </div>
+          <div
+            className="buttonSize"
+          >
+            <div
+              className="viewAndContinueButton"
+            >
+              <button
+                onClick={[Function]}
+              >
+                View Flight Times and Continue
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="flightRunningInfoWrapper"
+      >
+        <div
+          className="individualFlightInfo"
+        >
+          <div
+            className="airlineNameLogo"
+          >
+            <div>
+              Scoot
+            </div>
+            <div
+              style={
+                Object {
+                  "backgroundImage": "url(TR.gif)",
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "height": 20,
+                  "width": 60,
+                }
+              }
+            />
+          </div>
+          <div
+            className="date"
+          >
+            18 Nov
+          </div>
+          <div
+            className="flightPath"
+          >
+            Bangkok(DMK) to Tokyo(NRT)
+          </div>
+          <div
+            className="departureTime"
+          >
+            Departs 6:00 PM
+          </div>
+          <div
+            className="flightDuration"
+          >
+            <svg
+              className="iconHolder"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+            >
+              <path
+                d="M256 456c-110.3 0-200-89.7-200-200 0-54.8 21.7-105.9 61.2-144 6.4-6.2 16.6-6 22.7.4 6.2 6.4 6 16.6-.4 22.7-33.1 32-51.3 74.9-51.3 120.9 0 92.5 75.3 167.8 167.8 167.8S423.8 348.5 423.8 256c0-87.1-66.7-159-151.8-167.1v62.6c0 8.9-7.2 16.1-16.1 16.1s-16.1-7.2-16.1-16.1V72.1c0-8.9 7.2-16.1 16.1-16.1 110.3 0 200 89.7 200 200S366.3 456 256 456z"
+              />
+              <path
+                d="M175.9 161.9l99.5 71.5c13.5 9.7 16.7 28.5 7 42s-28.5 16.7-42 7c-2.8-2-5.2-4.4-7-7l-71.5-99.5c-3.2-4.5-2.2-10.8 2.3-14 3.6-2.6 8.3-2.4 11.7 0z"
+              />
+            </svg>
+            05h 00m
+          </div>
+        </div>
+        <div
+          className="individualFlightInfo"
+        >
+          <div
+            className="airlineNameLogo"
+          >
+            <div>
+              Jetstar
+            </div>
+            <div
+              style={
+                Object {
+                  "backgroundImage": "url(GK.gif)",
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "height": 20,
+                  "width": 60,
+                }
+              }
+            />
+          </div>
+          <div
+            className="date"
+          >
+            20 Nov
+          </div>
+          <div
+            className="flightPath"
+          >
+            Tokyo(NRT) to Osaka(KIX)
+          </div>
+          <div
+            className="departureTime"
+          >
+            Departs 5:05 PM
+          </div>
+          <div
+            className="flightDuration"
+          >
+            <svg
+              className="iconHolder"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+            >
+              <path
+                d="M256 456c-110.3 0-200-89.7-200-200 0-54.8 21.7-105.9 61.2-144 6.4-6.2 16.6-6 22.7.4 6.2 6.4 6 16.6-.4 22.7-33.1 32-51.3 74.9-51.3 120.9 0 92.5 75.3 167.8 167.8 167.8S423.8 348.5 423.8 256c0-87.1-66.7-159-151.8-167.1v62.6c0 8.9-7.2 16.1-16.1 16.1s-16.1-7.2-16.1-16.1V72.1c0-8.9 7.2-16.1 16.1-16.1 110.3 0 200 89.7 200 200S366.3 456 256 456z"
+              />
+              <path
+                d="M175.9 161.9l99.5 71.5c13.5 9.7 16.7 28.5 7 42s-28.5 16.7-42 7c-2.8-2-5.2-4.4-7-7l-71.5-99.5c-3.2-4.5-2.2-10.8 2.3-14 3.6-2.6 8.3-2.4 11.7 0z"
+              />
+            </svg>
+            00h 55m
+          </div>
+        </div>
+        <div
+          className="individualFlightInfo"
+        >
+          <div
+            className="airlineNameLogo"
+          >
+            <div>
+              Air Asia
+            </div>
+            <div
+              style={
+                Object {
+                  "backgroundImage": "url(D7.gif)",
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "height": 20,
+                  "width": 60,
+                }
+              }
+            />
+          </div>
+          <div
+            className="date"
+          >
+            26 Nov
+          </div>
+          <div
+            className="flightPath"
+          >
+            Osaka(KIX) to Honolulu(HNL)
+          </div>
+          <div
+            className="departureTime"
+          >
+            Departs 5:10 AM
+          </div>
+          <div
+            className="flightDuration"
+          >
+            <svg
+              className="iconHolder"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+            >
+              <path
+                d="M256 456c-110.3 0-200-89.7-200-200 0-54.8 21.7-105.9 61.2-144 6.4-6.2 16.6-6 22.7.4 6.2 6.4 6 16.6-.4 22.7-33.1 32-51.3 74.9-51.3 120.9 0 92.5 75.3 167.8 167.8 167.8S423.8 348.5 423.8 256c0-87.1-66.7-159-151.8-167.1v62.6c0 8.9-7.2 16.1-16.1 16.1s-16.1-7.2-16.1-16.1V72.1c0-8.9 7.2-16.1 16.1-16.1 110.3 0 200 89.7 200 200S366.3 456 256 456z"
+              />
+              <path
+                d="M175.9 161.9l99.5 71.5c13.5 9.7 16.7 28.5 7 42s-28.5 16.7-42 7c-2.8-2-5.2-4.4-7-7l-71.5-99.5c-3.2-4.5-2.2-10.8 2.3-14 3.6-2.6 8.3-2.4 11.7 0z"
+              />
+            </svg>
+            10h 50m
+          </div>
+        </div>
+      </div>
+      <div
+        className="smallScreenViewAndContinue"
+      >
+        <div
+          className="viewAndContinueButton"
+        >
+          <button
+            onClick={[Function]}
+          >
+            View Flight Times and Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

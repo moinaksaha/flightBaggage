@@ -1,0 +1,24 @@
+@import '../../theme/colors.css';
+
+.airlineDetailWrapper{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+.airlineDetailWrapper .flightAirline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 15px;
+    justify-content: center;
+}
+.airlineDetailWrapper .flightAirline .flightNumber{
+    font-size: 16px;
+    color: $colorDarkGrey;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.airlineDetailWrapper .flightAirline .airlineName{
+    font-size: 12px;
+    color: $colorMediumGrey;
+}

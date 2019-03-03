@@ -1,0 +1,41 @@
+@import '../../theme/colors.css';
+
+.mainWrapper{
+	position: relative;
+    background-color: $colorWhite;;
+	overflow: hidden;
+    border: 2px solid $colorLightGrey;
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 15px; */
+}
+
+.navigationTest{
+	position: relative;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 30px;
+	color: $colorDarkGrey;
+}
+.navigationTest .prev{
+	position: relative;
+	left: 0;
+	float:left;
+	padding: 5px 0px;
+}
+.navigationTest .next{
+	position: relative;
+	right: 0;
+	float: right;
+	padding: 5px 0px;
+}
+.flashMessageHolder{
+	padding: 4px 0;
+    display: inline-block;
+}
+
+/* */

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import styles from './index.module.css';
 
 import FlightDetailPage from '../FlightDetailPage';
+import MobileOnly from '../MobileOnly';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             path="/prototype2" 
             component={props => <FlightDetailPage {...props} prototype={2} />}
           />
+          <Route path="/mobile" component={MobileOnly} />
         </div>
       </Router>
     );

@@ -1,0 +1,92 @@
+@import '../../theme/colors.css';
+
+.cardImageDiv{
+    display: flex;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    position: absolute;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,.5);
+    transition: all 0.3s ease;
+}
+.cardImageDiv.fixed{
+    /* transform: scale(1.2); */
+    width: 100% !important;
+    /* background: $colorWhite !important; */
+    /* filter:blur(4px); */
+    margin-left: 0 !important;
+    border-radius: 0;
+    height: calc(100vh - 329px) !important;
+}
+.flightStops{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: $colorWhite;
+    flex: 1;
+    align-items: flex-start;
+}
+.flightStops .stop{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.flightStops .stop .helpIcon{
+    font-size: 28px;
+    padding-right: 20px;
+}
+.flightStops .arrival, .flightStops .departure{
+    padding: 5px;
+}
+.flightStops .airportCode{
+    font-size: 24px;
+    font-weight: bold;
+    color: $colorWhite;
+}
+.flightStops .flightIcon{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex: 1;
+    /* align-items: flex-start; */
+    align-items: stretch;
+}
+.flightStops .flightIcon .dateTime{
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.flightStops .flightIcon .planeIcon{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    padding: 5px 0;
+}
+.flightStops .flightIcon .planeIcon .line{
+    flex: 1;
+    width: 1px;
+    background: $colorWhite;
+    margin: 0 3px;
+}
+.flightStops .flightIcon .planeIcon .dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: $colorWhite;
+}
+.flightStops .flightIcon .planeIcon .actualIcon{
+    font-size: 20px;
+    padding: 3px 0 0 0;
+    transform: scaleY(-1);
+}
+.flightStops .dateTime{
+    display: flex;
+    font-size: 12px;
+    color: $colorWhite;
+}
+.flightStops .dateTime .iconHolder{
+    font-size: 16px;
+    margin-right: 5px;
+}
